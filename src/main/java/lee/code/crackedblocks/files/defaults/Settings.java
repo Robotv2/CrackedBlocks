@@ -10,12 +10,16 @@ public enum Settings {
     //boolean drop blocks
     DROP_BLOCKS("drop-blocks", true),
     //water protection
-    WATER_PROTECTION("water-protection", true),
-    ;
+    WATER_PROTECTION("water-protection", true);
 
-    @Getter private final String path;
-    @Getter private final boolean def;
-    @Setter private static FileConfiguration file;
+    @Getter
+    private final String path;
+
+    @Getter
+    private final boolean def;
+
+    @Setter
+    private static FileConfiguration file;
 
     public Boolean getDefault() {
         return this.def;

@@ -1,11 +1,11 @@
 package lee.code.crackedblocks;
 
-import lee.code.crackedblocks.xseries.XMaterial;
+import com.cryptomorin.xseries.XMaterial;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.Material;
 import org.bukkit.scheduler.BukkitScheduler;
 
 import java.util.UUID;

@@ -14,6 +14,8 @@ import lee.code.crackedblocks.listeners.PlayerBlockBreakListener;
 import lombok.Getter;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.Objects;
+
 public class CrackedBlocks extends JavaPlugin {
 
     @Getter private FileManager fileManager;
@@ -41,8 +43,8 @@ public class CrackedBlocks extends JavaPlugin {
     }
 
     private void registerCommands() {
-        getCommand("cb").setExecutor(new CommandManager());
-        getCommand("cb").setTabCompleter(new TabCompletion());
+        Objects.requireNonNull(getCommand("cb")).setExecutor(new CommandManager());
+        Objects.requireNonNull(getCommand("cb")).setTabCompleter(new TabCompletion());
     }
 
     private void registerListeners() {

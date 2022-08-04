@@ -1,9 +1,9 @@
 package lee.code.crackedblocks.commands.subcommands;
 
+import com.cryptomorin.xseries.XMaterial;
 import lee.code.crackedblocks.CrackedBlocks;
 import lee.code.crackedblocks.commands.SubCommand;
 import lee.code.crackedblocks.files.defaults.Lang;
-import lee.code.crackedblocks.xseries.XMaterial;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.ComponentBuilder;

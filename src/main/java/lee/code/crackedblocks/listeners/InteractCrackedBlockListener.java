@@ -1,14 +1,14 @@
 package lee.code.crackedblocks.listeners;
 
+import com.cryptomorin.xseries.XMaterial;
 import lee.code.crackedblocks.CrackedBlocks;
 import lee.code.crackedblocks.files.defaults.Lang;
-import lee.code.crackedblocks.xseries.XMaterial;
+import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.bukkit.Material;
 
 public class InteractCrackedBlockListener implements Listener {
 

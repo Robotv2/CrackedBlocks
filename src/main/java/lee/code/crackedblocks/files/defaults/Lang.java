@@ -41,8 +41,7 @@ public enum Lang {
     //Message command list previous page
     MESSAGE_COMMAND_LIST_PREVIOUS_PAGE("MESSAGE_COMMAND_LIST_PREVIOUS_PAGE", "&d&l---<< Prev"),
     //Message command list previous page hover
-    MESSAGE_COMMAND_LIST_PREVIOUS_PAGE_HOVER("MESSAGE_COMMAND_LIST_PREVIOUS_PAGE_HOVER", "&5&lPrevious Page"),
-    ;
+    MESSAGE_COMMAND_LIST_PREVIOUS_PAGE_HOVER("MESSAGE_COMMAND_LIST_PREVIOUS_PAGE_HOVER", "&5&lPrevious Page");
 
     @Getter private final String path;
     @Getter private final String def;

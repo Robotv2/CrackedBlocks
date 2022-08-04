@@ -2,7 +2,9 @@ name: CrackedBlocks
 main: lee.code.crackedblocks.CrackedBlocks
 version: ${project.version}
 api-version: 1.13
-author: Lee
+authors:
+  - Lee
+  - Robotv2
 commands:
   cb:
     description: Main command for plugin.

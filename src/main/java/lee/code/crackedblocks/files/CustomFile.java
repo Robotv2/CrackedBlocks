@@ -1,15 +1,15 @@
 package lee.code.crackedblocks.files;
 
-import java.io.*;
-import java.util.logging.Level;
-
 import com.google.common.base.Charsets;
-import org.apache.commons.lang.StringEscapeUtils;
-import org.apache.commons.lang.Validate;
+import org.apache.commons.lang3.StringEscapeUtils;
+import org.apache.commons.lang3.Validate;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.Plugin;
+
+import java.io.*;
+import java.util.logging.Level;
 
 public class CustomFile {
 
